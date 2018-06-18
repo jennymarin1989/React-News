@@ -23,7 +23,7 @@ describe('App', ()=> {
   describe('input text field', () => {
     it('finds input text field', () => {
       const app = shallow(<App />);
-      expect(app.find('.input-field').length).toEqual(1);
+      expect(app.find('#input-field').length).toEqual(1);
     })
   })
 

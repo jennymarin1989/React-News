@@ -11,8 +11,12 @@ class App extends Component{
 
   render() {
     return(
-      <div>ABC NEWS</div>
-    
+      <div className="news">
+        <h1> A B C  News </h1>
+        <div className="input">
+          <input type="text" id="input-field" className="form-control" name="input" placeholder="What news are you looking for.."  />
+        </div>
+      </div>
     )
   }
 }
