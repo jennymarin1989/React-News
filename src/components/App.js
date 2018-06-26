@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Title from '../components/Title';
+import SearchBar from '../components/SearchBar';
 
 class App extends Component{
 
@@ -10,7 +12,8 @@ class App extends Component{
   render() {
     return (
       <div>
-     
+        <Title title={"REACT NEWS"}/>
+        <SearchBar />
       </div>
       
     )

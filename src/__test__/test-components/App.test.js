@@ -2,6 +2,7 @@ import React from "react";
 import { shallow } from "enzyme";
 import App from '../../components/App';
 import Title from '../../components/Title'
+import SearchBar from '../../components/SearchBar';
 
 
 describe('App', ()=> {
@@ -18,23 +19,29 @@ describe('App', ()=> {
     });
   });
 
-  describe('initial state ', () =>{
-    it('initializes state successfully', () =>{
-      expect(app.find(Title)).to.have.length(1);
+  describe('Title ', () =>{
+    it('renders Title successfully', () =>{
+      expect(app.find(Title)).toHaveLength(1);
     });
   });  
 
-  describe('input text field', () => {
-    it('finds input text field', () => {
-  
-      expect(app.find('#input-field').length).toEqual(1);
+  describe('SearchBar', () => {
+    it('renders SearchBar component successfully', () => {
+      expect(app.find(SearchBar)).toHaveLength(1);
     })
   })
 
-  describe('button', () => {
-    it('renders button component', () => {
+  // describe('input text field', () => {
+  //   it('finds input text field', () => {
   
-      expect(app.find('#search-button').length).toEqual(1);
-    })
-  })
+  //     expect(app.find('#input-field').length).toEqual(1);
+  //   })
+  // })
+
+  // describe('button', () => {
+  //   it('renders button component', () => {
+  
+  //     expect(app.find('#search-button').length).toEqual(1);
+  //   })
+  // })
 })
