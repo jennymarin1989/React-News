@@ -21,5 +21,11 @@ describe( 'SearchBar', () => {
     it('renders input box correctly',() => {
       expect(search.find('#search')).toHaveLength(1)
     })
+  });
+
+  describe('Initializes search state successfully', () => {
+    it('Initializes search state to empty string', () => {
+      expect(search.state('search')).toEqual('');
+    })
   })
 })
