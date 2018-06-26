@@ -16,71 +16,9 @@ ShallowWrapper {
     "instance": null,
     "key": undefined,
     "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <h1>
-           A B C  News 
-</h1>,
-        <div
-          className="input"
->
-          <input
-                    className="form-control"
-                    id="input-field"
-                    name="input"
-                    placeholder="What news are you looking for.."
-                    type="text"
-          />
-</div>,
-      ],
-      "className": "news",
-    },
+    "props": Object {},
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": " A B C  News ",
-        },
-        "ref": null,
-        "rendered": " A B C  News ",
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <input
-            className="form-control"
-            id="input-field"
-            name="input"
-            placeholder="What news are you looking for.."
-            type="text"
-/>,
-          "className": "input",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "className": "form-control",
-            "id": "input-field",
-            "name": "input",
-            "placeholder": "What news are you looking for..",
-            "type": "text",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "input",
-        },
-        "type": "div",
-      },
-    ],
+    "rendered": null,
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -88,71 +26,9 @@ ShallowWrapper {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <h1>
-             A B C  News 
-</h1>,
-          <div
-            className="input"
->
-            <input
-                        className="form-control"
-                        id="input-field"
-                        name="input"
-                        placeholder="What news are you looking for.."
-                        type="text"
-            />
-</div>,
-        ],
-        "className": "news",
-      },
+      "props": Object {},
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": " A B C  News ",
-          },
-          "ref": null,
-          "rendered": " A B C  News ",
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <input
-              className="form-control"
-              id="input-field"
-              name="input"
-              placeholder="What news are you looking for.."
-              type="text"
-/>,
-            "className": "input",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "className": "form-control",
-              "id": "input-field",
-              "name": "input",
-              "placeholder": "What news are you looking for..",
-              "type": "text",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-          "type": "div",
-        },
-      ],
+      "rendered": null,
       "type": "div",
     },
   ],
