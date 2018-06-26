@@ -13,7 +13,13 @@ describe( 'SearchBar', () => {
 
   describe('renders correctly', () => {
     it('renders components correctly', () => {
-      expect(search).toMatchSnaphot();
+      expect(search).toMatchSnapshot();
+    })
+  });
+
+  describe('input box ', () => {
+    it('renders input box correctly',() => {
+      expect(search.find('#search')).toHaveLength(1)
     })
   })
 })
