@@ -10,12 +10,16 @@ class SearchBar extends Component {
      search: ''
    };
   
+   this.handleChange = this.handleChange.bind(this);
+
   }
 
   handleChange = (event) => {
     this.setState({
       search: event.target.value
     })
+
+    this.props.onSearch(event.target.value)
   }
 
   render() {

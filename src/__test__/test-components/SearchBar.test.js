@@ -28,4 +28,11 @@ describe( 'SearchBar', () => {
       expect(search.state('search')).toEqual('');
     })
   })
+
+  describe('changes the state', () => {
+    it('changes the state when enter input in searchbox', () => {
+      search.find('#search').simulate('change', {target: { name:"search", value:"trump"}})
+      expect(search.state('news')).toHaveLength(20);
+    })
+  })
 })

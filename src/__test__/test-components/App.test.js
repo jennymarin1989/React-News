@@ -35,5 +35,11 @@ describe('App', ()=> {
     it('initializes news state to empty array', () => {
       expect(app.state('news')).toEqual([]);
     })
+  });
+
+  describe('componentDidMount', () => {
+    it('should fetch news from API', () => {
+      expect (app.state('news')).length.toEqual(20);
+    })
   })
 })

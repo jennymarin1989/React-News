@@ -21,7 +21,9 @@ ShallowWrapper {
         <Title
           title="REACT NEWS"
 />,
-        <SearchBar />,
+        <SearchBar
+          onSearch={[Function]}
+/>,
       ],
     },
     "ref": null,
@@ -41,7 +43,9 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
-        "props": Object {},
+        "props": Object {
+          "onSearch": [Function],
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -59,7 +63,9 @@ ShallowWrapper {
           <Title
             title="REACT NEWS"
 />,
-          <SearchBar />,
+          <SearchBar
+            onSearch={[Function]}
+/>,
         ],
       },
       "ref": null,
@@ -79,7 +85,9 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
-          "props": Object {},
+          "props": Object {
+            "onSearch": [Function],
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
