@@ -31,17 +31,9 @@ describe('App', ()=> {
     })
   })
 
-  // describe('input text field', () => {
-  //   it('finds input text field', () => {
-  
-  //     expect(app.find('#input-field').length).toEqual(1);
-  //   })
-  // })
-
-  // describe('button', () => {
-  //   it('renders button component', () => {
-  
-  //     expect(app.find('#search-button').length).toEqual(1);
-  //   })
-  // })
+  describe('Initializes news state', () => {
+    it('initializes news state to empty array', () => {
+      expect(app.state('news')).toEqual([]);
+    })
+  })
 })

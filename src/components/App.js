@@ -4,9 +4,12 @@ import SearchBar from '../components/SearchBar';
 
 class App extends Component{
 
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
     
+    this.state = {
+      news: []
+    }
   };
 
   render() {
